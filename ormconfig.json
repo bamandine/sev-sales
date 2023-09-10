@@ -1,0 +1,15 @@
+{
+    "type": "sqlite",
+    "database": "my-charlott-sales-database.db",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["dist/entities/*.js"], 
+    "migrations": ["dist/migrations/*.js"], 
+    "subscribers": ["dist/subscribers/*.js"], 
+    "cli": {
+      "entitiesDir": "src/models", 
+      "migrationsDir": "src/migrations",
+      "subscribersDir": "src/subscribers"
+    }
+  }
+  
